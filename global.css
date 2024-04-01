@@ -1,0 +1,60 @@
+body {background-color: aliceblue;}
+
+*{color:rgb(5, 5, 31);}
+p {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+    
+.nav-list {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime les marges intérieures */
+}
+
+.nav-list li {
+    display: inline; /* Affiche les éléments de la liste en ligne */
+    margin-right: 20px; /* Ajoute un espace entre les éléments */
+}
+
+li:hover {color:rgb(211, 231, 244) ;}
+
+a :visited {color: transparent;}
+a :active {color: rgb(153, 26, 49);}
+
+.nav-list li:last-child {
+    margin-right: 0; /* Supprime la marge à droite du dernier élément */
+}
+        #monlogo {
+            width: 1px; /* Largeur souhaitée */
+            height:1px ; /* Conserve le rapport hauteur/largeur */
+        }
+#sortieLettres {font-size:xx-large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+        #monInsta {
+            width: 2%; 
+            height: 2%;}
+           
+            .container {
+                display: flex;
+                align-items: center;
+            }
+            
+            .text {
+                flex: 1;
+                padding: 10px;
+            }
+            
+            .image {
+                flex: 1;
+            }
+            #arabWoman {
+                width:5%
+                height:5% ;
+            }
+            
+            
+            #name {
+                list-style-type: none; /* Supprime les puces de la liste */
+                padding: 0; /* Supprime les marges intérieures */
+            }
+            
+            #email {
+                display: inline; /* Affiche les éléments de la liste en ligne */
+                margin-right: 20px; /* Ajoute un espace entre les éléments */
