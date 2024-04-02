@@ -3,20 +3,34 @@ body {background-color: aliceblue;}
 *{color:rgb(5, 5, 31);}
 p {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
     
-.nav-list {
+.nav-list li{
     list-style-type: none; /* Supprime les puces de la liste */
-    padding: 0; /* Supprime les marges intérieures */
+    padding:0; /* Supprime les marges intérieures */
 }
+.nav-list li {text-decoration: none;}
 
 .nav-list li {
     display: inline; /* Affiche les éléments de la liste en ligne */
-    margin-right: 20px; /* Ajoute un espace entre les éléments */
+    margin-right: 100px; /* Ajoute un espace entre les éléments */
 }
+.nav-list {text-align: center;}
+.nav-list {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+#titreVideo {text-align: center;
+margin: 2%;
+padding: 0;}
 
-li:hover {color:rgb(211, 231, 244) ;}
 
-a :visited {color: transparent;}
-a :active {color: rgb(153, 26, 49);}
+
+
+#sortieLettres {text-align: center;}
+
+
+*a:hover {background-color:rgb(211, 231, 244) ;}
+
+*a {text-decoration: none;}
+
+*a :visited {color: transparent;}
+*a :active {color: rgb(36, 48, 154);}
 
 .nav-list li:last-child {
     margin-right: 0; /* Supprime la marge à droite du dernier élément */
@@ -25,36 +39,88 @@ a :active {color: rgb(153, 26, 49);}
             width: 1px; /* Largeur souhaitée */
             height:1px ; /* Conserve le rapport hauteur/largeur */
         }
+
+       
 #sortieLettres {font-size:xx-large;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-        #monInsta {
+.consigne {text-align: center; margin: 2%;}
+/*#sortieImage {align-items: center;}*/
+.demo {
+    width:80%;
+    text-align:justify;
+    display:inline-block;
+    margin:2%;
+  }
+.demo p { background-color: aqua;
+    height: auto;
+    width: auto;
+    
+
+    margin: 10%;
+    
+}
+
+.demo img{
+    float:left;
+    margin:10%;
+    width:50%;
+    height:50%;
+
+}
+
+#saudiMan {
+    width:5%
+    height:5% ;
+}
+
+#saudiMan{ position: absolute; right: 25%;}
+
+.containerVideo { 
+    display: flex;
+    justify-content: right;
+    align-items: right;
+     height: 100%;
+    margin: 0%;}
+
+    
+
+
+.container { width:80%;
+    text-align:justify;
+    display:inline-block;
+    margin:2%;
+  }
+.container p {
+
+    width: 40%;
+    height: 70%;
+
+    margin: 5%;
+    padding-top: 2%;
+    
+}
+
+.container img{
+    float:left;
+    margin:5%;
+    width:30%;
+    height:50%;
+
+}
+.footer2{ list-style: none;}
+
+       
+#monInsta {
             width: 2%; 
             height: 2%;}
+
+
+            
+
+
            
-            .container {
-                display: flex;
-                align-items: center;
-            }
-            
-            .text {
-                flex: 1;
-                padding: 10px;
-            }
-            
-            .image {
-                flex: 1;
-            }
-            #arabWoman {
-                width:5%
-                height:5% ;
-            }
+
             
             
-            #name {
-                list-style-type: none; /* Supprime les puces de la liste */
-                padding: 0; /* Supprime les marges intérieures */
-            }
-            
-            #email {
-                display: inline; /* Affiche les éléments de la liste en ligne */
-                margin-right: 20px; /* Ajoute un espace entre les éléments */
+           
+    
